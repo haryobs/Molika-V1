@@ -35,6 +35,15 @@ const cases = [
         berakhirPenahanan: "25-05-2025",
         statusPerpanjangan: "Belum Diperpanjang"
     },
+        {
+        jaksa: "Rombelayuk Massudi, S.H.",
+        tersangka: "Saiful Kasim Bin Kasim Alias Saiful",
+        tindakPidana: "Persetubuhan Terhadap Anak",
+        pasalSangkaan: "Pasal 81 Ayat 3 Jo Pasal 76D UU No. 17 Tahun 2016",
+        batasPelimpahan: "30-05-2025",
+        berakhirPenahanan: "25-06-2025",
+        statusPerpanjangan: "Belum Diperpanjang"
+    },
 ];
 
 function parseDateDMY(dateString) {
