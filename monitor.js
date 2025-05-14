@@ -35,6 +35,15 @@ const cases = [
         berakhirPenahanan: "25-05-2025",
         statusPerpanjangan: "Belum Diperpanjang"
     },
+    {
+        jaksa: "Charlie Immanuel Manasye Simamora, S.H.",
+        tersangka: "Nadir Bin Kunje",
+        tindakPidana: "Narkotika",
+        pasalSangkaan: "Pasal 114 Ayat (1) atau Pasal 112 Ayat (1) Undang-undang RI Nomor 35 Tahun 2009",
+        batasPelimpahan: "19-05-2025",
+        berakhirPenahanan: "28-05-2025",
+        statusPerpanjangan: "Belum Diperpanjang"
+    },
 ];
 
 function parseDateDMY(dateString) {
