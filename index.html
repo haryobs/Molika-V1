@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOLIKA - Monitor Limpah Perkara</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="nav-container">
+            <a href="index.html"><img src="molika.png" alt="Logo" class="logo"></a>
+        </ul>
+        <hr class="responsive-hr">
+    </nav>
+
+    <header>
+        <h1 class="title">Monitor Limpah Perkara</h1>
+        <label class="filter" for="filterJaksa">Filter:</label>
+        <input class="namajaksa" type="text" id="filterJaksa" placeholder="Search" />
+    </header>
+    
+    <table id="caseTable" border="1" cellspacing="0" cellpadding="8" style="margin-top:10px; width: 100%;">
+        <thead>
+            <tr>
+                <th>Nama Jaksa</th>
+                <th>Berkas Perkara</th>
+                <th>Tindak Pidana</th>
+                <th>Pasal Sangkaan</th>
+                <th>Batas Waktu Pelimpahan</th>
+                <th>Countdown</th>
+                <th>Berakhirnya Penahanan</th>
+                <th>Status Perpanjangan Penahanan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated by JavaScript -->
+        </tbody>
+    </table>
+
+    <div id="cardContainer" style="display:none; margin-top: 20px;"></div>
+
+    <script src="monitor.js"></script>
+</body>
+</html>
