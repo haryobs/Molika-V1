@@ -4,8 +4,8 @@ const cases = [
         tersangka: "Mardianto Bin Johan Alias Anto",
         tindakPidana: "Persetubuhan Terhadap Anak",
         pasalSangkaan: "Pasal 81 Ayat 1 Jo Pasal 76D UU No. 17 Tahun 2016",
-        batasPelimpahan: "09-05-2025",
-        berakhirPenahanan: "18-05-2025",
+        batasPelimpahan: "06-06-2025",
+        berakhirPenahanan: "17-06-2025",
         statusPerpanjangan: "Belum Diperpanjang"
     },
     {
