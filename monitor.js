@@ -44,6 +44,24 @@ const cases = [
         berakhirPenahanan: "28-05-2025",
         statusPerpanjangan: "Belum Diperpanjang"
     },
+    {
+        jaksa: "Charlie Immanuel Manasye Simamora, S.H.",
+        tersangka: "Monika Binti Ulhan",
+        tindakPidana: "Narkotika",
+        pasalSangkaan: "Pasal 114 ayat (1) dan atau pasal 112 ayat (1) Undang-undang Nomor 35 Tahun 2009",
+        batasPelimpahan: "23-05-2025",
+        berakhirPenahanan: "02-06-2025",
+        statusPerpanjangan: "Belum Diperpanjang"
+    },
+    {
+        jaksa: "Rombelayuk Massudi, S.H.",
+        tersangka: "Roni Bin Hasim",
+        tindakPidana: "Narkotika",
+        pasalSangkaan: "Pasal 114 ayat (1) dan atau pasal 112 ayat (1) Undang-undang Nomor 35 Tahun 2009",
+        batasPelimpahan: "23-05-2025",
+        berakhirPenahanan: "02-06-2025",
+        statusPerpanjangan: "Belum Diperpanjang"
+    },
 ];
 
 function parseDateDMY(dateString) {
