@@ -27,15 +27,6 @@ const cases = [
         statusPerpanjangan: "-"
     },
     {
-        jaksa: "Rombelayuk Massudi, S.H.",
-        tersangka: "Saiful Kasim Bin Kasim Alias Saiful",
-        tindakPidana: "Persetubuhan Terhadap Anak",
-        pasalSangkaan: "Pasal 81 Ayat 3 Jo Pasal 76D UU No. 17 Tahun 2016",
-        batasPelimpahan: "15-05-2025",
-        berakhirPenahanan: "25-05-2025",
-        statusPerpanjangan: "Belum Diperpanjang"
-    },
-    {
         jaksa: "Charlie Immanuel Manasye Simamora, S.H.",
         tersangka: "Nadir Bin Kunje",
         tindakPidana: "Narkotika",
